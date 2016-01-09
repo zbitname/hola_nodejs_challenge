@@ -95,7 +95,7 @@ module.exports = function filter(m, r) {
                                 m[keys[i]][--context.counter] = r[j].action;
                             case 1:
                             {
-                                if (ra[j] != defBuf[j])
+                                if (ra[j] != defBuf[j] && defBuf[j] != 1)
                                     f_entry.a[--context.frc] = j;
                             }
                         }
@@ -107,7 +107,7 @@ module.exports = function filter(m, r) {
                             case 3:
                             case 1:
                             {
-                                if (ra[j] != defBuf[j])
+                                if (ra[j] != defBuf[j] && defBuf[j] != 1)
                                     f_entry.a[--context.frc] = j;
                             }
                         }
