@@ -3225,8 +3225,10 @@ function solve(messages, rules) {
  Module.ticks_counter = 0;
  var results_buffer = Module.ccall("solve", "number", [ "number", "number", "number", "number" ], [ messages_buffer, rules_buffer, messages_count, rules_count ]);
  var result = parse_output(messages, rules, messages_order, messages_count, results_buffer);
+ raw_buffers_free(raw_buffers);
+ Module._free(messages_buffer);
+ Module._free(rules_buffer);
+ Module.ccall('cleanup', 'number', [], []); // DO THEY RESTART VM?
  return result;
 }
 module.exports = solve;
-
-
