@@ -1,0 +1,362 @@
+$ ./runall_correct.bash
+FAIL ./submissions/Adam Yahid/filter_engine.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+FAIL ./submissions/Aleksandrs Fiļipovs/filter.js [test_6] Error in msg2. Expected: ["tag"], actual: []
+OK ./submissions/Aleksei Murashin/filter.js
+OK ./submissions/Aleksey Sergey/filter.js
+OK ./submissions/Alex Kheben/filter.js
+OK ./submissions/Alex Ku/filter.js
+FAIL ./submissions/Alex Netkachov/filter.js [large_1] Error in msg42737. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag159","tag207","tag372"]
+FAIL ./submissions/Alex Vishnevsky/filter.js [test_6] Error in msg1. Expected: ["tag"], actual: []
+OK ./submissions/Alexander Baygeldin/filter_fsa.js
+FAIL ./submissions/Alexander Dubovsky/filters.js [test_default] Error in msg1. Expected: ["folder jack","forward to jill@elsewhere.com"], actual: ["forward to jill@elsewhere.com","folder jack"]
+FAIL ./submissions/Alexander Hasselbach/hola-filter.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Alexander Ilyin/filter2.js
+FAIL ./submissions/Alexander Kazachenko/index.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+prepare rules time: 0.001
+prepare msg time: 0.002
+filtr time: 0.001
+rules for all messages cnt : 0
+prepare result 0.001
+prepare rules time: 0
+prepare msg time: 0.001
+filtr time: 0
+rules for all messages cnt : 0
+prepare result 0
+prepare rules time: 0
+prepare msg time: 0
+filtr time: 0
+rules for all messages cnt : 0
+prepare result 0
+prepare rules time: 0
+prepare msg time: 0
+filtr time: 0
+rules for all messages cnt : 0
+prepare result 0
+FAIL ./submissions/Alexander Nurullov/filtr.js [test_2] Error in msg1. Expected: [], actual: undefined
+FAIL ./submissions/Alexander Oryol/mailFilter.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Alexander Rusakov/filter.js
+OK ./submissions/Alexander Savchuk/solution.js
+FAIL ./submissions/Alexander Zasim/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Alexandr/filter.js
+FAIL ./submissions/Alexey Alexandrovich/filter.min.js [test_1] Cannot read property 'length' of undefined
+OK ./submissions/Alexey Chemichev/achemichevfilterR2.js
+OK ./submissions/Alexey Diyachenko/filter.js
+FAIL ./submissions/Alexey Efremov/index.js [large_1] Error in msg39611. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag159","tag207","tag372"]
+OK ./submissions/Alexey Gora/filter.js
+OK ./submissions/Alexey Kolpakov/filter10.js
+OK ./submissions/Alexey Larkov/filter.js
+FAIL ./submissions/Alexey Nichiporchik/filter.js [large_1] Error in msg3497. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag126","tag159","tag207","tag372"]
+OK ./submissions/Alexey Pushnikov/filter.js
+OK ./submissions/Alexey Sadovin/filter.js
+FAIL ./submissions/Alexey Semashkevich/filter.js [test_2] Error in msg1. Expected: [], actual: undefined
+FAIL ./submissions/Alexey Vedyakov/compiled.js [test_default] Cannot find module '../masks/dot-smart-length.js'
+OK ./submissions/Alina Lozhkina/filter.js
+FAIL ./submissions/Almaz Mubinov/filter.js [test_9] Unexpected token ;
+FAIL ./submissions/Amir Absalyamov/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Anatoly/filter.js [test_6] Error in msg2. Expected: ["tag"], actual: []
+OK ./submissions/Andrew Kashta/filter.js
+FAIL ./submissions/Andrey Chernykh/filter.js [large_1] Error in msg9787. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag207","tag372"]
+OK ./submissions/Andrey Grankin/filter.js
+OK ./submissions/Andrey Kostakov/challenge_mail_filter.js
+OK ./submissions/Andrey Kuznetsov/index.js
+OK ./submissions/Andrey Pogoreltsev/filter.js
+FAIL ./submissions/Andrey Saponenko/filter.js [large_2] Error in msg79419. Expected: ["action5","action13","action16","action37","action42","action90","action92","action96","action107","action128","action130","action133","action168","action174","action176","action178","action190","action226","action231","action235","action259","action292","action293","action299","action301","action304","action313","action328","action329","action361","action371","action375","action390","action393","action397","action402","action434","action444","action456","action476","action478","action479","action489","action500","action514","action516","action534","action550","action558","action560","action574","action576","action578","action594","action612","action617","action620","action627","action656","action662","action666","action687","action691","action693","action698","action707","action720","action721","action755","action765","action768","action776","action779","action826","action832","action848","action849","action870","action873","action897","action917","action925","action927","action944","action954","action967","action971","action978","action981","action984"], actual: []
+FAIL ./submissions/Andrey Solodovnikov/filter.js [test_4] Error in msg1. Expected: [], actual: ["tag work"]
+OK ./submissions/Andy5938/filterAndy5938.js
+
+<--- Last few GCs --->
+
+   29212 ms: Scavenge 1385.7 (1456.2) -> 1385.7 (1456.2) MB, 7.1 / 0 ms (+ 1.0 ms in 1 steps since last GC) [allocation failure] [incremental marking delaying mark-sweep].
+   30053 ms: Mark-sweep 1385.7 (1456.2) -> 1385.7 (1456.2) MB, 840.5 / 0 ms (+ 23.0 ms in 58 steps since start of marking, biggest step 5.0 ms) [last resort gc].
+   30879 ms: Mark-sweep 1385.7 (1456.2) -> 1385.7 (1456.2) MB, 826.5 / 0 ms [last resort gc].
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0000013DA0344A59 <JS Object>
+    2: filter [C:\user\hola_public\submissions\Anton Ivakin\filter.js:~11] [pc=000003E602518CDB] (this=0000013DA03C27C9 <JS Global Object>,messages=00000117C486C401 <an Object with map 0000030EFBB2D711>,rules=00000117C486C2E1 <JS Array[999]>)
+    3: test(aka test) [C:\user\hola_public\filter.spec3.js:~6] [pc=000003E602522532] (this=0000013DA0304139 <undefined>,messages=00000117C486C401 <an Ob...
+
+FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory
+ OK ./submissions/Anton Podkuyko/index.js
+FAIL ./submissions/Anton Vashurkin/index.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Arkadi Klepatch/filter.js
+FAIL ./submissions/Artem Kudryavtsev/mailfilter.js [test_default] filter is not a function
+FAIL ./submissions/Artem Mitloshuk/Artem_Mitloshuk_JS_Challenge.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Arthur Khusaenov/filter.js [test_6] Error in msg2. Expected: ["tag"], actual: []
+FAIL ./submissions/Arthur Okeke/filter.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Aydar Mirzagitov/filter.js
+OK ./submissions/berrunder/filter.js
+FAIL ./submissions/Bilik Sandanov/filter.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+OK ./submissions/Black Knight/result.js
+OK ./submissions/Dan Revah/filter-optimized.js
+FAIL ./submissions/Daniel Shir/filter5.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Daniil Onoshko/filter.js
+FAIL ./submissions/Danil Baibak/filter.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Danila Sukhanov/filter.js
+OK ./submissions/Denis Bezrukov/filter.js
+FAIL ./submissions/Denis Bogomoltsev/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Denis Karavayev/filter.js [test_9] Error in msg1. Expected: ["tag1","tag2","tag3","tag4","tag5","tag6","tag7"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6"]
+OK ./submissions/Denis Kepeshchuk/filter.js
+OK ./submissions/Denis Kreshikhin/kreshikhin-filter.js
+OK ./submissions/Denis Maslov/filter.js
+OK ./submissions/Denis Protasov/filter.js
+FAIL ./submissions/Denis Zakharov/dist  src [test_default] Cannot find module './submissions/Denis Zakharov/dist  src'
+OK ./submissions/Denys Skychko/filter.js
+FAIL ./submissions/Dilshod Samatov/mail_utility.js [test_2] Error in msg1. Expected: [], actual: undefined
+OK ./submissions/disamis/filter.js
+FAIL ./submissions/Dizzy D/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Dmitry Egorov/degorov.js
+FAIL ./submissions/Dmitry Fedoryak/filter10.js [test_1] Cannot read property 'to' of undefined
+FAIL ./submissions/Dmitry Kurochkin/filter.js [test_default] Error in msg3. Expected: ["tag work"], actual: ["tag work","forward to jill@elsewhere.com"]
+FAIL ./submissions/Dmitry Petrov/filter.js [test_default] Cannot read property 'length' of undefined
+FAIL ./submissions/Dmitry Poddubniy/filterV1.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+OK ./submissions/Dmitry Podgorniy/filter.js
+
+<--- Last few GCs --->
+
+   34193 ms: Scavenge 1396.8 (1456.7) -> 1396.8 (1456.7) MB, 7.0 / 0 ms (+ 1.0 ms in 1 steps since last GC) [allocation failure] [incremental marking delaying mark-sweep].
+   35064 ms: Mark-sweep 1396.8 (1456.7) -> 1396.8 (1456.7) MB, 871.4 / 0 ms (+ 23.0 ms in 39 steps since start of marking, biggest step 11.0 ms) [last resort gc].
+   35918 ms: Mark-sweep 1396.8 (1456.7) -> 1396.8 (1456.7) MB, 854.2 / 0 ms [last resort gc].
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 000002AFDD944A59 <JS Object>
+    2: filter(aka filter) [C:\user\hola_public\submissions\Dmitry Rybin\index.js:~17] [pc=000001E94AA6035F] (this=000002AFDD904139 <undefined>,messages=000002A5FEDAF179 <an Object with map 000002CBBFB3A7B9>,rules=000002A5FEDB9991 <JS Array[999]>)
+    3: test(aka test) [C:\user\hola_public\filter.spec3.js:~6] [pc=000001E94A4F6A08] (this=000002AFDD904139 <undefined>,messages=000002A5FEDAF179 <a...
+
+FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory
+ FAIL ./submissions/Dmitry Soloviev/3.js [test_default] Cannot find module './filter.js'
+FAIL ./submissions/Dmitry Tarasenko/index.js [large_1] Error in msg46021. Expected: ["tag32","tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag85","tag126","tag159","tag207","tag372"]
+FAIL ./submissions/Dzmitry Ulasiankou/MailFilter.js [test_default] filter is not a function
+OK ./submissions/Ecma Scripter/filter.js
+FAIL ./submissions/Elshad Shirinov/impl.js [large_1] Error in msg50832. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag159","tag207","tag372"]
+OK ./submissions/Evgenii Kazmiruk/filter.js
+FAIL ./submissions/Evgeny Frolov/filter.js [test_9] Error in msg1. Expected: ["tag1","tag2","tag3","tag4","tag5","tag6","tag7"], actual: ["tag1","tag2","tag3","tag4"]
+FAIL ./submissions/Evgeny Khramkov/filter.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+OK ./submissions/Evgeny Lukianchikov/filter.js
+FAIL ./submissions/Evgeny Olonov/index.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1"]
+FAIL ./submissions/Evgeny Semyonov/filter.js [test_default] filter is not a function
+OK ./submissions/Evgeny Shiryaev/filter.js
+OK ./submissions/Evgeny Zeyler/filter.js
+FAIL ./submissions/fb5813a09c0f95242cb/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Georgy Chebanov/filter.js
+FAIL ./submissions/Grigory Alexeev/Alexeev Grigorii - MailFiltering.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+
+<--- Last few GCs --->
+
+  517801 ms: Scavenge 2330.3 (2384.4) -> 2330.3 (2384.4) MB, 0.4 / 0 ms (+ 63.0 ms in 1 steps since last GC) [allocation failure] [incremental marking delaying mark-sweep].
+  519265 ms: Mark-sweep 2330.3 (2384.4) -> 2330.3 (2384.4) MB, 1463.6 / 0 ms (+ 482.0 ms in 17 steps since start of marking, biggest step 213.0 ms) [last resort gc].
+  520634 ms: Mark-sweep 2330.3 (2384.4) -> 2330.3 (2384.4) MB, 1370.1 / 0 ms [last resort gc].
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 0000032F0EC44A59 <JS Object>
+    1: getActions [C:\user\hola_public\submissions\Grigory Plotnikov\filter.js:~66] [pc=0000021ED457CF20] (this=00000268B81AD2F1 <a Rules with map 000003A06BC2CFD9>,message=00000249989CFF59 <an Object with map 000003A06BC32781>)
+    2: /* anonymous */(aka /* anonymous */) [C:\user\hola_public\submissions\Grigory Plotnikov\filter.js:~114] [pc=0000021ED44DEEB6] (this=0000032F0EC04139 <undefined...
+
+FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory
+ FAIL ./submissions/Guy Brukhis/hola_challenge_mail_filter.js [test_6] Error in msg2. Expected: ["tag"], actual: []
+OK ./submissions/Guy Rapaport/mail_filter.js
+FAIL ./submissions/Haim Kom/filter.js [test_default] filter is not a function
+FAIL ./submissions/happymarmoset/filter.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+FAIL ./submissions/Hayk Martirosyan/app.js [large_1] Error in msg10501. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag85","tag126","tag159","tag207","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372","tag372"]
+FAIL ./submissions/Hongliang Wang/hongliang.js [test_default] filter is not a function
+FAIL ./submissions/Ice Kibitzer/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1"]
+FAIL ./submissions/Ido Ran/filter.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/Igal Miroshnichenko/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Igor Klopov/klopov-02-solve-corasick-O3.js [test_default_2] Module.abort is not a function
+FAIL ./submissions/Igor Malanyk/filter.js [test_default] Error in msg1. Expected: ["folder jack","forward to jill@elsewhere.com"], actual: ["forward to jill@elsewhere.com","folder jack"]
+OK ./submissions/Igor Potapov/filter.js
+OK ./submissions/Igor Vladimirovich/hola.js
+OK ./submissions/Ihor Barakaiev and Dmitry Karaush/hola.js
+FAIL ./submissions/Ihor Barakaiev and Dmitry Karaush/non-regex.js [test_default] filter is not a function
+OK ./submissions/Ilya Chervonov/ichervon.js
+FAIL ./submissions/Ilya Gelman/index.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/Ilya Kirichek/volkswagen.js [large_1] Error in msg37594. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["passed"]
+OK ./submissions/Ilya Makarov/filter-with-memo.js
+OK ./submissions/Ilya Mochalov/index.js
+OK ./submissions/Ionicman/check.js
+FAIL ./submissions/Itay Komemy/sol.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Ivan Lukashov/mail.js
+FAIL ./submissions/Ivan Maltsev/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Ivan Nikitin/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Ivan Saloid/contest.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+FAIL ./submissions/Ivan Zakharchenko/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Jarek Płocki/filter.js
+FAIL ./submissions/Jean-Philippe Gauthier/MailFilteringEngine.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/jsmeister/filter.js [test_default] Block-scoped declarations (let, const, function, class) not yet supported outside strict mode
+OK ./submissions/Katerina Pavlenko/filter.js
+OK ./submissions/Kazim/filter.js
+FAIL ./submissions/Kedem Diamant/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1"]
+OK ./submissions/KingOfNothing/kingofnothing_filter.js
+OK ./submissions/Kirill Bykov/script.js
+FAIL ./submissions/Kirill Yakovlev/filter.js [test_default] filter is not a function
+OK ./submissions/Kobi/filter_v2.js
+
+<--- Last few GCs --->
+
+   27795 ms: Mark-sweep 1324.7 (1456.2) -> 1324.7 (1456.2) MB, 766.1 / 0 ms [allocation failure] [scavenge might not succeed].
+   28561 ms: Mark-sweep 1324.7 (1456.2) -> 1324.7 (1456.2) MB, 765.9 / 0 ms [allocation failure] [scavenge might not succeed].
+   29342 ms: Mark-sweep 1324.7 (1456.2) -> 1324.7 (1456.2) MB, 781.8 / 0 ms [last resort gc].
+   30132 ms: Mark-sweep 1324.7 (1456.2) -> 1324.7 (1456.2) MB, 789.1 / 0 ms [last resort gc].
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 000001A7F3344A59 <JS Object>
+    1: /* anonymous */(aka /* anonymous */) [C:\user\hola_public\submissions\Konstantin Boyandin\mail_filter.js:~1] [pc=000002CA2DD52703] (this=000001A7F3304139 <undefined>,messages=000000D533F98969 <an Object with map 00000327B5F24659>,rules=000000D533F98A79 <JS Array[500]>)
+    2: test(aka test) [C:\user\hola_public\filter.spec3.js:16] [pc=000002CA2D7C8141] (this=000001A7F3304139 <undefined...
+
+FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory
+ OK ./submissions/Konstantin Petryaev/hola8.js
+FAIL ./submissions/Kwek Jing Yang/filter.js [test_default] filter is not a function
+FAIL ./submissions/Lee Elenbaas/mail-filter.js [test_6] Error in msg3. Expected: [], actual: ["tag"]
+OK ./submissions/Leonid Kuznetsov/filter.js
+OK ./submissions/madshall/index.js
+FAIL ./submissions/MakarovEm/mailfilter.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/Maksim Razumenko/filter.js [test_9] Error in msg1. Expected: ["tag1","tag2","tag3","tag4","tag5","tag6","tag7"], actual: ["tag1","tag4","tag5","tag6","tag7"]
+FAIL ./submissions/Mark Gubarev/filter.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+OK ./submissions/Max Brodin/filter.js
+FAIL ./submissions/Max Leizerovich/mail-filter.attempt1.js [test_default] Error in msg1. Expected: ["folder jack","forward to jill@elsewhere.com"], actual: ["forward to jill@elsewhere.com","folder jack"]
+OK ./submissions/Maxim Drozdov/filter.js
+OK ./submissions/Maxim Khoruzhko/filter.js
+OK ./submissions/Moshe Revah/index.js
+OK ./submissions/mycodef/index.js
+OK ./submissions/Nadav Ivgi/filter.js
+OK ./submissions/nerv/filter.js
+OK ./submissions/Nickolay Savchenko/filter.js
+OK ./submissions/Nikita Isaev/filter.js
+OK ./submissions/Nikita Molostvov/filter.js
+FAIL ./submissions/Nikita Polevoy/filter.js [test_2] Error in msg1. Expected: [], actual: undefined
+OK ./submissions/Nikolay Karev/karevn.js
+OK ./submissions/Nikolay Kuchumov/filter.js
+FAIL ./submissions/Nikolay Olonov/index.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Nikolay Shevlyakov/filter.js
+OK ./submissions/Nurguly Ashyrov/Filter.js
+FAIL ./submissions/Oleg Panchenko/filter.js [test_default] filter is not a function
+OK ./submissions/Oleg Popov/filter.js
+FAIL ./submissions/Oleh Tsiroh/filter.js [test_1] Cannot convert undefined or null to object
+FAIL ./submissions/Oleksandr Antonyuk/filter.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+FAIL ./submissions/Ori Lahav/mailfilterv1.js [large_1] mc is not defined
+FAIL ./submissions/Ouanalao/filter.js [large_1] Error in msg8762. Expected: ["tag2","tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag85","tag126","tag159","tag207","tag372"]
+FAIL ./submissions/Oz GabsoZ/filter.js [test_9] Error in msg1. Expected: ["tag1","tag2","tag3","tag4","tag5","tag6","tag7"], actual: ["tag1","tag4","tag5"]
+result is ={"msg1":["folder jack","forward to jill@elsewhere.com"],"msg2":["tag spam","forward to jill@elsewhere.com"],"msg3":["tag work"]}
+FAIL ./submissions/Oz Shapira/mail_filter.js [test_default] filter is not a function
+OK ./submissions/Pavel Gruba/filter.js
+OK ./submissions/Pavel Koltyshev/index.js
+OK ./submissions/Pavel Orlov/filter.js
+FAIL ./submissions/Pavel Pogodaev/holaemail.js [test_4] wildcard2str_re is not defined
+FAIL ./submissions/Pavel Polyakov/index.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Pavel Tomsha/filter.js [large_1] Error in msg55119. Expected: ["tag72","tag85","tag126","tag159","tag372"], actual: ["tag72","tag159","tag372"]
+
+<--- Last few GCs --->
+
+   23849 ms: Scavenge 1391.1 (1456.2) -> 1391.1 (1456.2) MB, 6.3 / 0 ms (+ 2.0 ms in 1 steps since last GC) [allocation failure] [incremental marking delaying mark-sweep].
+   24637 ms: Mark-sweep 1391.1 (1456.2) -> 1391.1 (1456.2) MB, 787.9 / 0 ms (+ 22.0 ms in 125 steps since start of marking, biggest step 2.0 ms) [last resort gc].
+   25400 ms: Mark-sweep 1391.1 (1456.2) -> 1391.1 (1456.2) MB, 763.0 / 0 ms [last resort gc].
+
+
+<--- JS stacktrace --->
+
+==== JS stack trace =========================================
+
+Security context: 000000CD6B044A59 <JS Object>
+    1: checkMessage(aka checkMessage) [C:\user\hola_public\submissions\Petr Shalkov\filter.js:~107] [pc=00000181628C1C8A] (this=000000CD6B004139 <undefined>,message=0000030DE48CF7D9 <an Object with map 000001EE5EF32781>)
+    2: filter [C:\user\hola_public\submissions\Petr Shalkov\filter.js:~25] [pc=00000181626ECB3F] (this=000000CD6B0C27C9 <JS Global Object>,messages=000003AEB5FFFC81 <an Objec...
+
+FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - process out of memory
+ FAIL ./submissions/Pham Vu Tuan/PhamVuTuan_HolaJS.js [test_4] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/poluyanov/messageFilter.js [large_1] Error in msg20911. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag24","tag72","tag85","tag126","tag159","tag207","tag372"]
+FAIL ./submissions/Ptax/filter.js [large_1] Error in msg41878. Expected: ["tag72","tag85","tag126","tag159","tag207","tag355","tag372","tag377","tag406"], actual: ["tag72","tag85","tag126","tag159","tag207","tag372","tag377"]
+OK ./submissions/qeled/filter.js
+OK ./submissions/R5t4nah6/filter.js
+FAIL ./submissions/Raoul Foaleng/example.js [test_default] filter is not a function
+OK ./submissions/Roman Pletnev/roman_pletnev_filter.js
+FAIL ./submissions/Roman Timashev/filter.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/Rostislav Galkin/filter.js [large_1] Error in msg423. Expected: ["tag72","tag85","tag126","tag159","tag207","tag231","tag355","tag372","tag377","tag406"], actual: ["tag72","tag85","tag126","tag159","tag206","tag207","tag231","tag283","tag355","tag372","tag377","tag406","tag410"]
+FAIL ./submissions/Ruslan Bekenev/filter.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Ruslan Koptev/filter-regexp.js
+OK ./submissions/Ruslan Minukov/filter.js
+FAIL ./submissions/Sashko Matviychuk/filter.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+OK ./submissions/Sergey Golub/filter.js
+OK ./submissions/Sergey Ivanov/filter.js
+FAIL ./submissions/Sergey Kluchkovsky/filter.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Sergey Lichack/filter.js
+OK ./submissions/Sergey Mikhailovich/filter.js
+OK ./submissions/Sergey Petkun/filter_final.js
+OK ./submissions/Sergey Savelyev/filter.js
+Quad called abaabaaba *a*b*
+Quad called aba *a*b*
+Quad called d;rflkght *a*b*
+FAIL ./submissions/Sergey Serebryakov/filtermail.js [test_6] Error in msg1. Expected: ["tag"], actual: []
+FAIL ./submissions/Sergey Tolok/filter.js [test_10] Error in msg1. Expected: ["tag2","tag3","tag4","tag5","tag6","tag6","tag8"], actual: ["tag1","tag2","tag3","tag4","tag5","tag6","tag6","tag8"]
+FAIL ./submissions/Sergii Iakymov/filter.js [test_2] Error in msg1. Expected: [], actual: undefined
+FAIL ./submissions/Sergius Galjuk/Sergius_challenge_winter_2015.js [test_default] filter is not a function
+FAIL ./submissions/Serhiy Mitrovtsiy/hola.js [test_default] filter is not a function
+OK ./submissions/Serj Karasev/mailfilter_serjkarasev.js
+FAIL ./submissions/serviceman/index.js [large_1] Error in msg17840. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag159","tag207","tag372"]
+FAIL ./submissions/Shantanu Gupta/filtering_engine.js [test_9] Error in msg1. Expected: ["tag1","tag2","tag3","tag4","tag5","tag6","tag7"], actual: ["tag1","tag4","tag5"]
+OK ./submissions/Siroj Matchanov/msn.js
+OK ./submissions/Slava Shklyaev/filter.js
+FAIL ./submissions/Stanislav Vyshchepan/filter.js  filter.ts [test_default] Cannot find module './submissions/Stanislav Vyshchepan/filter.js  filter.ts'
+OK ./submissions/Stas Vasilyev/filter_stanislav.js
+FAIL ./submissions/Stepan Pupkin/solA.js [test_default] Error in msg1. Expected: ["folder jack","forward to jill@elsewhere.com"], actual: []
+FAIL ./submissions/taitulism/filter.js [test_2] Error in msg1. Expected: [], actual: undefined
+FAIL ./submissions/Tan Ying Hao/HolaJS.js [test_default] Error in msg1. Expected: ["folder jack","forward to jill@elsewhere.com"], actual: ["forward to jill@elsewhere.com","folder jack"]
+FAIL ./submissions/Taras Ozarko/index.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+FAIL ./submissions/Timophey Nakhai/the_best_one.js [test_default] filter is not a function
+FAIL ./submissions/Valeriy Petlya/filter.js [large_1] Error in msg40598. Expected: ["tag72","tag85","tag126","tag159","tag207","tag372"], actual: ["tag72","tag85","tag126","tag159","tag372"]
+[ 3, 3, 2, 0, 0, 0, 0, 0, 0, 0 ]
+[ 6, 3, 5, 0, 0, 0, 0, 0, 0, 0 ]
+[ 3, 3, 2, 0, 0, 0, 0, 0, 0, 0 ]
+[ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+[ 1, 0, 1, 0, 0, 0, 0, 0, 0, 0 ]
+[ 1, 0, 0, 1, 0, 0, 0, 0, 0, 0 ]
+[ 1, 0, 0, 1, 0, 0, 0, 0, 0, 0 ]
+[ 1, 0, 0, 1, 0, 0, 0, 0, 0, 0 ]
+[ 2, 0, 0, 0, 0, 0, 0, 0, 0, 0 ]
+[ 3, 0, 0, 3, 0, 0, 0, 0, 0, 0 ]
+[ 10, 0, 0, 4, 0, 0, 0, 0, 0, 0 ]
+[ 9, 0, 0, 9, 0, 0, 0, 0, 0, 0 ]
+[ 394, 157, 0, 449, 0, 0, 0, 0, 0, 0 ]
+[ 591, 0, 0, 1407, 0, 0, 0, 0, 0, 0 ]
+OK ./submissions/Vasiliy Kostin/filter.js
+FAIL ./submissions/Victor Follet/filters.js [large_1] Filter result is undefined
+OK ./submissions/Vitali Falileev/hola_filter.js
+OK ./submissions/Vitali Koshtoev/filter.js
+OK ./submissions/Vitalii Petrychuk/index.js
+OK ./submissions/Vitaliy (vint)/filter.js
+FAIL ./submissions/Vitaliy Sunny/string-prototype-switch.js [test_5] Error in msg3. Expected: ["tag work"], actual: []
+FAIL ./submissions/Vitaly Domnikov/nutcracker.js [test_4] Error in msg1. Expected: [], actual: ["tag work"]
+OK ./submissions/Vitaly Dyatlov/filter.js
+OK ./submissions/Vladimir Barbarosh/src/filter.js
+OK ./submissions/Vladimir Menshakov/filter.js
+OK ./submissions/Vladimir Osipov/filter.js
+FAIL ./submissions/Vladimir Prikhozhenko/filter.js [large_1] Error in msg25257. Expected: ["tag72","tag159","tag207","tag372"], actual: ["tag72","tag85","tag126","tag159","tag207","tag372"]
+OK ./submissions/Vladimir Privalov/filter-y2.js
+OK ./submissions/Vladislav Nezhutin/filter.js
+FAIL ./submissions/Volodymyr Valkiv/final-filter-optimized.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Vyacheslav Bazhinov/nfa.js
+OK ./submissions/Vyacheslav Ryabinin/filter.js
+Filter Result : {"msg1":["folder jack","forward to jill@elsewhere.com"],"msg2":["tag spam","forward to jill@elsewhere.com"],"msg3":["tag work"]}
+Function: 3.610ms
+Filter Result : {"msg1":["tag spam","tag spam"],"msg2":["tag spam","tag spam","folder jack","forward to jill@elsewhere.com"],"msg3":["tag work","tag spam"]}
+Function: 0.651ms
+FAIL ./submissions/Xawn Tan/hola.js [test_default_2] Error in msg1. Expected: ["folder jack","forward to jill@elsewhere.com"], actual: ["tag spam","tag spam"]
+FAIL ./submissions/Yair Haimovitch/app5.js [test_8] Error in msg1. Expected: ["tag1","tag3"], actual: ["tag1","tag2","tag3"]
+OK ./submissions/Yuri Kilochek/filter.js
+OK ./submissions/yuri_c/filter.js
+OK ./submissions/Yuriy Khabarov/filter.js
+OK ./submissions/Yury Loskot/filter.js
+OK ./submissions/Zibx/original.js
