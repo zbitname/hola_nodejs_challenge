@@ -44,7 +44,7 @@ sudo chmod +x runall.bash
 --- | --- | --- | ---
 1 | 0,556551560 | Roman Pletnev |
 2 | 0,625574511 | Evgeny Zeyler |
-0 | 0,641852671 | Ecma Scripter | Disqualified[1]
+0 | 0,641852671 | Ecma Scripter | Cheater
 3 | 0,646645631 | Denis Bezrukov |
 4 | 0,686985655 | Yuri Kilochek |
 5 | 0,707077866 | Andrew Kashta |
