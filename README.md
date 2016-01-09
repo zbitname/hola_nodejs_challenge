@@ -40,7 +40,7 @@ sudo chmod +x runall.bash
 Результаты бенчмарка: results/benchmark.log
 
 ### Итог
-\# | time, ms | Name | Comment
+\# | time, seconds | Name | Comment
 --- | --- | --- | ---
 1 | 0,556551560 | Roman Pletnev |
 2 | 0,625574511 | Evgeny Zeyler |
