@@ -2,7 +2,7 @@
 
 SUM=0
 BEST=999999999
-QTY=50
+QTY=10
 
 for (( i = 0; i < QTY; i++ )); do
   START=$(date +%s.%N)
